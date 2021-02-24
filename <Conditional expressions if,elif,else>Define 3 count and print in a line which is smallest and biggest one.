@@ -1,0 +1,21 @@
+sayi0 = 15
+sayi1 = 10
+sayi2 = 30
+
+if (sayi0>sayi1) and (sayi0>sayi2):
+  enbuyuk = sayi0   
+elif (sayi1>sayi0) and (sayi1>sayi2):
+  enbuyuk = sayi1
+elif (sayi2>sayi1) and (sayi2>sayi0):
+  enbuyuk = sayi2
+if (sayi0<sayi1) and (sayi0<sayi2): 
+  enkucuk = sayi0
+elif (sayi1<sayi0) and (sayi1<sayi2):
+  enkucuk = sayi1
+elif (sayi2<sayi0) and (sayi2<sayi1):
+  enkucuk = sayi2
+else:
+  print("Sayilardan bir yada birkaci birbirine esit!")
+
+print("En buyuk sayi = ",enbuyuk)
+print("En kucuk sayi = ",enkucuk)
